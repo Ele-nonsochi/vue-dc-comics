@@ -1,11 +1,19 @@
 @import "variables.scss";
 
 .container_main{
-    padding: $padding-x;
-    padding: $padding-y;
+    padding: $padding-30;
+    padding: $padding-30;
     background-color: black;
-}
-
-h1{
-    color: white;
+    .jumbotron {
+        height: 400px;
+        background-image: url("./assets/img/jumbotron.jpg");
+        background-size: cover;
+        background-position: top center;
+      }
+    .container{
+        .card-container{
+           display: flex;
+           flex: wrap;
+        }
+    }
 }
